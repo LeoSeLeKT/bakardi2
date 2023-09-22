@@ -173,11 +173,12 @@ h3 {
 }
 
 .extra {
-    margin:10px 0;
+    padding-left: 30px;
     text-align: left;
     flex: 1; /* Allow the text to take up available space on the left */
 }
 
 .extraPrice {
+
     flex: 1; /* Prevent the price from taking up extra space on the right */
 }
