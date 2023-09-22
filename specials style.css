@@ -1,20 +1,21 @@
 /* Reset some default styles */
-@media (min-height: 700px){
+@media screen and (max-width: 768px) {
+    .menu {
+        text-align: center;
+        padding-top: 10px;
+    }
 
-}
-@media (max-width: 480px ){
-    .drink {
-        margin-bottom: 35px;
+    .menu li {
+        display: block;
+        margin: 0;
+        padding: 10px 0;
+    }
+
+    .content {
         padding: 10px;
     }
 
-    .drink h3 {
-        font-size: 20px;
-    }
-
-    .drink p {
-        font-size: 14px;
-    }
+    /* Add more responsive styles as needed */
 }
 
 body{
