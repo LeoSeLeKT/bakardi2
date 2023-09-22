@@ -6,12 +6,10 @@
     
     .menu {
         text-align: center;
-        display: none; /* Hide the menu by default */
+        display: block; /* Hide the menu by default */
     }
     
-    .menu.active {
-        display: block; /* Display the menu when active */
-    }
+    
     .menu li {
         display: block;
         margin: 0;
