@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+#logo {
+
+    width: 720px;
+
+    height: 323px;
+    background:url("bakardi 420.png");
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+}
+
+nav {
+    text-align: center;
+    margin-top: 60px;
+    padding-bottom: 2px;
+    }
+
+nav a {
+    text-decoration: none;
+    padding: 12px 0; /* Adjust the vertical padding as needed */
+    margin: 0 40px;
+    border: 1px solid #333;
+    border-radius: 15px;
+    font-size: 24px;
+    transition: background-color 0.3s, color 0.3s;
+    background-color: #d46c1c;
+    color: white;
+    display: inline-block;
+    width: 300px; /* Set a fixed width for all buttons */
+    height: 50px;
+    box-sizing: border-box; /* Include padding in the width */
+}
+
+nav a:hover {
+    background-color: rgba(212, 108, 28, 0.59);
+    color: black;
+}
+
+section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.menu-item {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+
+footer {
+
+    color: #333333;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-section {
+    margin: 0 150px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+/*
+.footer-section:nth-child(1){
+
+    text-align: left;
+}
+.footer-section:nth-child(2){
+
+    text-align: left;
+}
+.footer-section:nth-child(3){
+    text-align: left;
+}
+
+
+popraj gi ovie da se alignati ko sho trb
+srekjen rodnednen*/
+.footer-section h3 {
+    font-size: 1.2em;
+    border-bottom: 1px solid #d46c1c;
+    text-align: left;
+    margin:5px 10px;
+}
+
+.footer-section p {
+    margin: 5px 10px;
+    text-align: left;
+}
+
+footer>nav{
+    border-top: 1px solid #d46c1c;
+    padding-top:10px;
+text-align: left;
+    margin: 0 -415px;
+}
+footer>nav>a{
+    text-align:center;
+
+    text-decoration: none;
+
+    margin: 0 650px;
+
+    border: 1px solid #333;
+    border-radius:15px;
+    font-size: 20px;
+    transition: background-color 0.3s, color 0.3s;
+    background-color:black;
+    color: white;
+}
+footer>nav>a:hover{
+    background-color: rgba(28, 28, 28, 0.35);
+    color: black;
+}
+.social-media-links{
+    padding-left: 600px;
+    margin-left:200px;
+}.social-media-links a{
+
+ }
