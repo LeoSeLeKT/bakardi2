@@ -1,16 +1,41 @@
-body {
+body{
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #ffffff;
 }
-
+/* Navigation bar styles */
 header {
-
-    color: black;
+    background-color: white;
+    padding: 10px 0;
     text-align: center;
-    padding: 20px 0;
 }
 
+.logo img {
+    max-width: 100px; /* Adjust the logo size as needed */
+    vertical-align: middle;
+
+}
+.menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu li {
+    display: inline;
+    margin: 0 20px;
+
+}
+
+.menu a {
+    text-decoration: none;
+    color: #d46c1c;
+    font-size: 18px;
+}
+.menu a:hover{
+    border-bottom: 1px solid red;
+    color:red;
+}
 h1 {
     margin: 0;
 }

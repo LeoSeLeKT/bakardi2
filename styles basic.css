@@ -121,6 +121,7 @@ h3 {
 .description {
     max-width: 350px;
     margin:  0 auto;
+    font-size: 12px;
     text-align: left;
     /*border: 1px solid black;*/
 

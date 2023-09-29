@@ -94,11 +94,15 @@ popraj gi ovie da se alignati ko sho trb
 srekjen rodnednen*/
 .footer-section h3 {
     font-size: 1.2em;
-    border-bottom: 1px solid #d46c1c;
-    text-align: left;
-    margin:5px 10px;
-}
 
+    text-align: left;
+    margin: 5px 10px;
+}
+.footer-section h3::after {
+    display: block;
+    border-bottom: 1px solid #d46c1c;
+    width: 50%; /* You can adjust this value as needed */
+}
 .footer-section p {
     margin: 5px 10px;
     text-align: left;
