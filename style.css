@@ -13,9 +13,7 @@ header {
 #logo {
 
     width: 720px;
-
     height: 323px;
-    background:url("bakardi 420.png");
     background-size: cover;
     background-position: center;
     margin: 0 auto;
@@ -123,7 +121,6 @@ footer>nav>a:hover{
 }.social-media-links a{
 
  }
-
 
 
 @media (max-width: 768px) {
