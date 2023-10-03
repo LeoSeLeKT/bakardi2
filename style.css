@@ -128,7 +128,7 @@ footer>nav>a:hover{
 @media (max-width: 768px) {
     nav a {
         padding: 8px 16px; /* Adjust padding for smaller screens */
-        font-size: 16px; /* Decrease font size for smaller screens */
+        font-size: 18px; /* Decrease font size for smaller screens */
         margin-bottom: 5px; /* Reduce margin between buttons */
     }
 
@@ -140,17 +140,22 @@ footer>nav>a:hover{
     .footer-section h3 {
         font-size: 1em;
     }
-
+.logo img{
+    max-width: 100px;
+}
     .footer-section h3::after {
         width: 30%;
     }
 
     footer > nav > a {
-        font-size: 14px;
+        font-size: 16px;
         padding: 8px 16px;
+        align-items: center;
     }
 
     .social-media-links {
         margin-top: 10px;
+        align-items: center;
     }
+
 }
