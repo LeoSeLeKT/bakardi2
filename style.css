@@ -140,7 +140,7 @@ footer>nav>a:hover{
     }
 
     nav a {
-        width: 100px; /* Set fixed width for each button */
+        width: 220px; /* Set fixed width for each button */
         display: block; /* Make the buttons block elements to stack vertically */
         margin: 0 auto 10px; /* Center the buttons and add margin at the bottom for spacing */
     }
