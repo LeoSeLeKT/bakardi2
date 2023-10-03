@@ -39,8 +39,8 @@ header {
 
 .menu {
     background-color: white;
-    width: 80%;
-    max-width: 800px; /* Increased max-width to accommodate more columns */
+    width: 50%;
+    max-width: 760px; /* Increased max-width to accommodate more columns */
     margin: 20px auto;
     padding: 20px;
     border: 1px solid #ddd;
@@ -85,7 +85,7 @@ header {
     margin-bottom: 10px;
     color: #d46c1c;
     border-bottom:1px solid #d46c1c;
-    width: 70%;
+    width: 65%;
 }
 .menu-item h3 {
     font-size: 16px;
