@@ -141,7 +141,7 @@ footer>nav>a:hover{
 
     nav a {
         width: auto; /* Remove the fixed width for navigation links */
-        margin: 0 20px; /* Adjust the margin for smaller screens */
+        margin: 0 0 10px; /* Adjust the margin for smaller screens */
     }
 
     .footer-section {
