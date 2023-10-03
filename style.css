@@ -1,36 +1,92 @@
-body {
+/* styles.css */
+body{
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #ffffff;
 }
-
+/* Navigation bar styles */
 header {
+    background-color: white;
+    padding: 10px 0;
     text-align: center;
-    padding: 20px 0;
 }
 
-#logo {
+.logo img {
+    max-width: 100px; /* Adjust the logo size as needed */
+    vertical-align: middle;
 
-    width: 720px;
-    height: 323px;
-    background-size: cover;
-    background-position: center;
-    margin: 0 auto;
 }
 
-nav {
-    text-align: center;
-    margin-top: 60px;
-    padding-bottom: 2px;
-    }
+.menu {
+    list-style-type: none;
+    padding: 0;
+}
 
-nav a {
+.menu li {
+    display: inline;
+    margin: 0 20px;
+
+}
+
+.menu a {
     text-decoration: none;
-    padding: 12px 0; /* Adjust the vertical padding as needed */
-    margin: 0 40px;
+    color: #d46c1c;
+    font-size: 18px;
+}
+.menu a:hover{
+    border-bottom: 1px solid red;
+    color:red;
+}
+
+/* Footer button styles */
+/* styles.css */
+
+/* Footer button styles */
+footer {
+    text-decoration: none;
+    padding-left: 610px;
+    margin-top: 20px;
+}
+footer>nav{
+    padding-right: 20px;
+}
+u{
+    border-bottom: 1px dotted #d46c1c;
+    text-decoration: none;
+}
+footer>nav>a{
+    text-decoration: none;
+    padding: 12px 10px; /* Adjust the vertical padding as needed */
+    margin: 10px 0;
     border: 1px solid #333;
-    border-radius: 15px;
+    border-radius: 10px;
+    font-size: 22px;
+    transition: background-color 0.3s, color 0.3s;
+    background-color: gray;
+    color: black;
+    display: inline-block;
+    width: 300px; /* Set a fixed width for all buttons */
+    height: 50px;
+    box-sizing: border-box; /* Include padding in the width */
+}footer>nav>a:hover{
+     background-color: black;
+     color: white;
+ }
+.glavni {
+    padding:5px 10px;
+    margin: 10px 10px;
+    display: flex;
+    flex-direction: column; /* Display buttons in a column */
+    text-align: center;
+    align-items: center/* Center align the button rows */
+}
+.glavni a{
+    text-decoration: none;
+    padding: 12px 10px; /* Adjust the vertical padding as needed */
+    margin: 10px 40px;
+    border: 1px solid #333;
+    border-radius: 10px;
     font-size: 24px;
     transition: background-color 0.3s, color 0.3s;
     background-color: #d46c1c;
@@ -40,130 +96,41 @@ nav a {
     height: 50px;
     box-sizing: border-box; /* Include padding in the width */
 }
+.glavni a:hover{
+    background-color: rgba(212, 108, 28, 0.59);
+    color: white;
+}
+.glavni a:active{
+    background-color: rgba(212, 108, 28, 0.59);
+    color: white;
+}
+
+/*
+nav {
+    text-align: center;
+    margin-top: 60px;
+    padding-bottom: 2px;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 12px 0;
+    margin: 0 40px;
+    border: 1px solid #333;
+    border-radius: 15px;
+    font-size: 24px;
+    transition: background-color 0.3s, color 0.3s;
+    background-color: #d46c1c;
+    color: white;
+    display: inline-block;
+    width: 300px;
+    height: 50px;
+    box-sizing: border-box;
+}
 
 nav a:hover {
     background-color: rgba(212, 108, 28, 0.59);
-
-}
-
-section {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-.menu-item {
-    margin-bottom: 20px;
-    border: 1px solid #ddd;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-
-
-footer {
-
-    color: #333333;
-    text-align: center;
-    padding: 20px 0;
-}
-
-.footer-section {
-    margin: 0 150px;
-    display: inline-block;
-    vertical-align: top;
-    text-align: left;
-}
-
-.footer-section h3 {
-    font-size: 1.2em;
-    border-bottom: 1px dotted #d46c1c;
-    text-align: left;
-    margin: 5px 10px;
-}
-.footer-section h3::after {
-    display: block;
-    border-bottom: 1px solid #d46c1c;
-    width: 50%; /* You can adjust this value as needed */
-}
-.footer-section p {
-    margin: 5px 10px;
-    text-align: left;
-}
-
-footer>nav{
-   
-    padding-top:10px;
-text-align: left;
-    margin: 0 -415px;
-}
-footer>nav>a{
-    text-align:center;
-
-    text-decoration: none;
-
-    margin: 0 650px;
-
-    border: 1px solid #333;
-    border-radius:15px;
-    font-size: 20px;
-    transition: background-color 0.3s, color 0.3s;
-    background-color:black;
-    color: white;
-}
-footer>nav>a:hover{
-    background-color: rgba(28, 28, 28, 0.35);
     color: black;
 }
-.social-media-links{
-    padding-left: 600px;
-    margin-left:200px;
-}.social-media-links a{
 
- }
-
-@media (max-width: 508px) {
-    header {
-        padding: 10px 0; /* Adjust header padding for smaller screens */
-    }
-
-    #logo img {
-        max-width: 90%; /* Make the logo image responsive, it will take the full width of the container */
-
-        width: 330px;
-        height: 200px;
-        padding-right: 220px;
-    }
-
-    nav {
-        margin-top: 10px;
-    }
-
-    nav a {
-        width: 220px; /* Set fixed width for each button */
-        display: block; /* Make the buttons block elements to stack vertically */
-        margin: 0 auto 15px; /* Center the buttons and add margin at the bottom for spacing */
-    }
-
-    .footer-section {
-        margin: 0 auto;
-        padding: 10px;
-        text-align: center;
-    }
-
-    .footer-section h3::after {
-        width: 30%;
-    }
-
-    footer > nav > a {
-        font-size: 16px;
-        padding: 10px 16px;
-        margin: 0 10px; /* Adjust the margin for smaller screens */
-    }
-
-    .social-media-links {
-        margin-top: 10px;
-        margin-right: 150px;
-    }
-
-}
+*/
