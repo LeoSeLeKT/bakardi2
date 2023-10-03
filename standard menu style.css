@@ -56,7 +56,7 @@ footer {
 }
 .buttons a{
     text-decoration: none;
-    padding: 10px 0; /* Adjust the vertical padding as needed */
+    padding: 10px 0;
     margin: 0 40px;
     border: 1px solid #333;
     border-radius: 15px;
@@ -65,9 +65,9 @@ footer {
     background-color: #d46c1c;
     color: white;
     display: inline-block;
-    width: 265px; /* Set a fixed width for all buttons */
+    width: 200px;
     height: 50px;
-    box-sizing: border-box; /* Include padding in the width */
+    box-sizing: border-box;
 }
 
 .button-row {
@@ -92,4 +92,17 @@ footer {
 .button-row a:active{
     background-color: rgba(212, 108, 28, 0.59);
     color: black;
+}
+
+@media screen and (max-width: 768px) {
+    .menu li {
+        margin: 0 10px;
+    }
+
+    .buttons a {
+        margin: 10px 20px;
+        width: auto;
+        padding: 10px 20px;
+        text-align: center;
+    }
 }
