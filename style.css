@@ -76,22 +76,7 @@ footer {
     vertical-align: top;
     text-align: left;
 }
-/*
-.footer-section:nth-child(1){
 
-    text-align: left;
-}
-.footer-section:nth-child(2){
-
-    text-align: left;
-}
-.footer-section:nth-child(3){
-    text-align: left;
-}
-
-
-popraj gi ovie da se alignati ko sho trb
-srekjen rodnednen*/
 .footer-section h3 {
     font-size: 1.2em;
 
@@ -138,3 +123,34 @@ footer>nav>a:hover{
 }.social-media-links a{
 
  }
+
+
+@media (max-width: 768px) {
+    nav a {
+        padding: 8px 16px; /* Adjust padding for smaller screens */
+        font-size: 16px; /* Decrease font size for smaller screens */
+        margin-bottom: 5px; /* Reduce margin between buttons */
+    }
+
+    .footer-section {
+        margin: 0 auto;
+        padding: 5px;
+    }
+
+    .footer-section h3 {
+        font-size: 1em;
+    }
+
+    .footer-section h3::after {
+        width: 30%;
+    }
+
+    footer > nav > a {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    .social-media-links {
+        margin-top: 10px;
+    }
+}
