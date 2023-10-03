@@ -136,12 +136,13 @@ footer>nav>a:hover{
     }
 
     nav {
-        margin-top: 20px; /* Adjust the margin-top for the navigation menu */
+        margin-top: 20px;
     }
 
     nav a {
-        width: auto; /* Remove the fixed width for navigation links */
-        margin: 0 0 10px; /* Adjust the margin for smaller screens */
+        width: 100px; /* Set fixed width for each button */
+        display: block; /* Make the buttons block elements to stack vertically */
+        margin: 0 auto 10px; /* Center the buttons and add margin at the bottom for spacing */
     }
 
     .footer-section {
