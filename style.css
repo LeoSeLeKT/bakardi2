@@ -125,16 +125,17 @@ footer>nav>a:hover{
  }
 
 
+
 @media (max-width: 768px) {
     nav a {
-        padding: 8px 16px; /* Adjust padding for smaller screens */
+        padding: 10px 16px; /* Adjust padding for smaller screens */
         font-size: 18px; /* Decrease font size for smaller screens */
         margin-bottom: 5px; /* Reduce margin between buttons */
     }
 
     .footer-section {
         margin: 0 auto;
-        padding: 5px;
+        padding: 10px;
     }
 
     .footer-section h3 {
@@ -149,7 +150,7 @@ footer>nav>a:hover{
 
     footer > nav > a {
         font-size: 16px;
-        padding: 8px 16px;
+        padding: 10px 16px;
         align-items: center;
     }
 
