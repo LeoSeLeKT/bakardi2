@@ -130,9 +130,9 @@ footer>nav>a:hover{
     #logo img {
         max-width: 90%; /* Make the logo image responsive, it will take the full width of the container */
 
-        width: 350px;
+        width: 330px;
         height: 200px;
-        padding-right: 200px;
+        padding-right: 220px;
     }
 
     nav {
@@ -165,5 +165,7 @@ footer>nav>a:hover{
         margin-top: 10px;
         margin-left: 100px;
     }
-
+.lokacija{
+    padding-right: 300px;
+}
 }
