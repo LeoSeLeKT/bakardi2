@@ -42,9 +42,9 @@ header {
 .menju {
     background-color: white;
     width: 85%;
-    max-width: 680px; /* Increased max-width to accommodate more columns */
+    max-width: 800px; /* Increased max-width to accommodate more columns */
     margin: 20px auto;
-    padding: 20px;
+    padding: 28px;
     border: 1px solid #ddd;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
