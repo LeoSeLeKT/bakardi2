@@ -41,7 +41,7 @@ header {
 
 .menu {
     background-color: white;
-    width: 56%;
+    width: 80%;
     max-width: 680px; /* Increased max-width to accommodate more columns */
     margin: 20px auto;
     padding: 20px;
