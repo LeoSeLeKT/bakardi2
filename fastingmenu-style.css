@@ -39,9 +39,9 @@ header {
 }
 
 
-.menu {
+.menju {
     background-color: white;
-    width: 80%;
+    width: 85%;
     max-width: 680px; /* Increased max-width to accommodate more columns */
     margin: 20px auto;
     padding: 20px;
