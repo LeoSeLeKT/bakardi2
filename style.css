@@ -66,7 +66,7 @@ footer>nav>a{
     background-color: gray;
     color: black;
     display: inline-block;
-    width: 300px; /* Set a fixed width for all buttons */
+    width: 290px; /* Set a fixed width for all buttons */
     height: 50px;
     box-sizing: border-box; /* Include padding in the width */
 }footer>nav>a:hover{
