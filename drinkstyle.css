@@ -1,11 +1,10 @@
-/* styles.css */
+
 body{
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #ffffff;
 }
-/* Navigation bar styles */
 header {
     background-color: white;
     padding: 10px 0;
@@ -13,7 +12,7 @@ header {
 }
 
 .logo img {
-    max-width: 100px; /* Adjust the logo size as needed */
+    max-width: 100px; 
     vertical-align: middle;
 
 }
@@ -39,10 +38,6 @@ header {
     color:red;
 }
 
-/* Footer button styles */
-/* styles.css */
-
-/* Footer button styles */
 footer {
     text-align: center;
     margin-top: 20px;
@@ -52,12 +47,12 @@ footer {
     padding:5px 10px;
     margin: 10px 10px;
     display: flex;
-    flex-direction: column; /* Display buttons in a column */
-    align-items: center; /* Center align the button rows */
+    flex-direction: column; 
+    align-items: center; 
 }
 .buttons a{
     text-decoration: none;
-    padding: 12px 10px; /* Adjust the vertical padding as needed */
+    padding: 12px 10px; 
     margin: 10px 40px;
     border: 1px solid #333;
     border-radius: 10px;
@@ -66,9 +61,9 @@ footer {
     background-color: #d46c1c;
     color: white;
     display: inline-block;
-    width: 300px; /* Set a fixed width for all buttons */
+    width: 300px;
     height: 50px;
-    box-sizing: border-box; /* Include padding in the width */
+    box-sizing: border-box; 
 }
 .buttons a:hover{
     background-color: rgba(212, 108, 28, 0.59);
