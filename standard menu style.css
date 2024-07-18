@@ -1,11 +1,10 @@
-/* styles.css */
+
 body{
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #ffffff;
 }
-/* Navigation bar styles */
 header {
     background-color: white;
     padding: 10px 0;
@@ -13,7 +12,7 @@ header {
 }
 
 .logo img {
-    max-width: 100px; /* Adjust the logo size as needed */
+    max-width: 100px; 
     vertical-align: middle;
 
 }
@@ -39,10 +38,6 @@ header {
     color:red;
 }
 
-/* Footer button styles */
-/* styles.css */
-
-/* Footer button styles */
 footer {
     text-align: center;
     margin-top: 20px;
@@ -52,8 +47,8 @@ footer {
 .buttons {
 
     display: flex;
-    flex-direction: column; /* Display buttons in a column */
-    align-items: center; /* Center align the button rows */
+    flex-direction: column; 
+    align-items: center; 
 }
 .buttons a{
     text-decoration: none;
@@ -73,7 +68,7 @@ footer {
 
 .button-row {
     display: flex;
-    justify-content: center; /* Center align buttons in each row */
+    justify-content: center; 
 }
 
 .button-row a {
