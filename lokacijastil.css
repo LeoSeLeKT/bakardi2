@@ -4,7 +4,6 @@ body{
     padding: 0;
     background-color: #ffffff;
 }
-/* Navigation bar styles */
 header {
     background-color: white;
     padding: 10px 0;
@@ -12,7 +11,7 @@ header {
 }
 
 .logo img {
-    max-width: 100px; /* Adjust the logo size as needed */
+    max-width: 100px; 
     vertical-align: middle;
 
 }
@@ -42,6 +41,6 @@ h1 {
 
 iframe {
     width: 100%;
-    height: 500px; /* Adjust the height as needed */
+    height: 500px; 
     border: 0;
 }
